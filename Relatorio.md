@@ -7,6 +7,7 @@ Trata-se de um programa sobre Formas Geométricas
 
 
 ## 2. Hieraquia (UML)
+<img src="res/img.png" alt="Falta alterar"/>
 
 
 ## 3. Conceitos de POO aplicados
