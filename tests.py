@@ -6,5 +6,10 @@ class TestQuadrado(object):
         ladoA = 3
         ladoB = 4
         assert v.validar_quadrado(ladoA, ladoB) == False
-
-
+#
+# class TestRetangulo(object):
+#     #
+# class TestQuadrado(object):
+#
+#
+#
