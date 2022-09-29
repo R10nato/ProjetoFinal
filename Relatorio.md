@@ -2,14 +2,25 @@
 
 ## 1. Introdução
 
-Trata-se de um programa sobre Formas Geométricas
+Trata-se de um programa sobre Gerenciamento de Serviços de TI
+
+Os serviços podem ser para Software (classe abstrata), ou para Equipamentos (classe abstrata).
+
+Existem Softwares internos e/ou externos e Equipamentos como Computador e/ou impressora.
+
+No diagrama de classes, contém os atributos, métodos e saída esperados que deverão ser testados.
+
+O programa deverá conter um arquivo.py para teste (tests.py) e um para validação (validador.py). 
 
 ## 2. Hieraquia (UML)
-<img src="res/img.png" alt="Falta alterar"/>
+<img src="res/Class Diagram0.png" alt="Falta alterar"/>
 
 
 ## 3. Conceitos de POO aplicados
    1. Herança
+
+(trecho de código que mostre a Herança)
+
    2. Polimorfismo
    3. Encapsulamento
 ## 3. Relatório de Cobertura de Código
