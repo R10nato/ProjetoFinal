@@ -13,7 +13,7 @@ No diagrama de classes, contém os atributos, métodos e saída esperados que de
 O programa deverá conter um arquivo.py para teste (tests.py) e um para validação (validador.py). 
 
 ## 2. Hieraquia (UML)
-<img src="res/Class Diagram0.png" alt="Falta alterar"/>
+<img src="res/Class Diagram1.png" alt="Falta alterar"/>
 
 
 ## 3. Conceitos de POO aplicados
