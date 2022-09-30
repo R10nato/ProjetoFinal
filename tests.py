@@ -1,11 +1,13 @@
+import ServicosDeTi
 import SwInterno
-import validador as val
 
 class TestServicosDeTi(object):
     def test_id(self):
-        v = val.Validador()
-        assert v.validar_id(1234) == True
+        v = Serv
+        assert v
         assert v.validar_id(0000) == False
+#get testar se retorna null
+
 
     def test_id_letra(self):
         v = val.Validador()
