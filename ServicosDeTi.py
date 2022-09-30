@@ -1,12 +1,19 @@
 from abc import ABC, abstractmethod
 
-class Polygon(ABC):
+class SerticosDeTi(ABC):
+	id: int
 
-	@abstractmethod
-	def noofsides(self):
-		pass
+	def get_id(self):
+		return id
 
-class Triangle(Polygon):
+	def set_id(self):
+		input("")
+
+	# @abstractmethod
+	# def noofsides(self):
+	# 	pass
+
+class ServicoDeSoftware(ABC):
 
 	# overriding abstract method
 	def noofsides(self):

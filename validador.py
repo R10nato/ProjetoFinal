@@ -1,7 +1,8 @@
+import SwExterno
 import SwInterno
 
 
-class Validador(object):
+class ValidadorServicosDeTi(object):
     def validar_id(self, id):
         if(id != 0):
             return True
@@ -9,12 +10,13 @@ class Validador(object):
             return False
 
     def validar_internalizar(self, result):
-
-        self.result = 'Software Internalizado'
-        print(SwInterno.imprimir())
-
-        if(result   SwInterno.imprimir()):
-            return False
-        else:
+        if(result == SwExterno.internalizar()):
             return True
-        # se chamar o método, verifica se imprimiu
+        else:
+            return False
+
+    def validar_implementar(self, result):
+        if (result == SwInterno.implementar()):
+            return True
+        else:
+            return False

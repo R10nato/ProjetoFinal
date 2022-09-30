@@ -1,3 +1,4 @@
+import SwInterno
 import validador as val
 
 class TestServicosDeTi(object):
@@ -30,5 +31,10 @@ class TestSwInterno(object):
     def test_internalizar(self):
         v = val.Validador()
         assert v.validar_internalizar('Software Internalizado') == True
-#
-#
+
+
+class TestSwExterno(object):
+    def test_implementar(self):
+        v = SwInterno.implementar()
+        assert v.validar_implementar('Software Implementado') == True
+    def test_get_pro

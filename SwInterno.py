@@ -1,5 +1,5 @@
-def imprimir():
-    print('Software Internalizado')
+def implementar():
+    print('Software Implementado')
+    return 'Software Implementado'
 
-
-imprimir()
+implementar()
